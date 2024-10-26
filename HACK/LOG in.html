@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Page for AIDS</title>
+    <style>
+        .form{
+            border: solid 3px;
+            border-radius: 10px;
+            position: absolute;
+            left: 75%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            width: 400px;
+            height: 650px;
+            padding: 20px;
+            box-shadow: 1px 1px 10px 10px red;
+        }
+        .three{
+            color: white;
+            background-color: green;
+            border-radius: 10px;
+            padding: 10px 50px;
+        }
+        label,p{
+            color: white;
+            font-size:mediu;
+        }
+        a{
+            text-align: center;
+            text-decoration: none;
+            /* color: white; */
+        }
+        input{
+            padding-left:100px;
+            padding-right: 100px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            color: red;
+            text-shadow: 10px 5px 10px;
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <img src="Images/Screenshot 2024-10-27 025432.png" alt="" height=950" width="2000">
+    </div>
+    <form class="form">
+        <label for="user">Name:</label><br>
+        <input type="text" name="user" id="user"><br>
+        <label>Contact:</label><br>
+        <input type="number" name="number" id="number"><br>
+        <label>Mail Id:</label><br>
+        <input type="email" placeholder="" name="Email" id="Email"><br>
+        <label>Password:</label><br>
+        <input type="password"><br>
+        <label>Comfirm Password</label><br>
+        <input type="password"><br>
+        <label>Date of Birth:</label><br>
+        <input type="date"><br>
+        <label for="">Gender:</label>
+        <input type="radio" name="Gender" value="male" id="Gender"><label>male</label>
+        <input type="radio" name="Gender" value="female" id="Gender"><label>female</label>
+        <input type="radio" name="Gender" value="others" id="Gender"><label>others</label><br>
+        <label>Age:</label><br>
+        <input type="number">
+        <P>People who use our service may have uploaded your contact information to AIDS. <a href="#">Learn more.</a>
+            <br><br>
+            By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.
+        </P><br>
+        <br>
+        <center><a href="Thank you.html"class="three">Sign Up</a></center><br>
+        <center><a href="#">Already have an account?</a></center>
+    </form>
+</body>
+</html>
